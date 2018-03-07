@@ -21,6 +21,9 @@ public class CityGenerator : MonoBehaviour {
     public GameObject buildingsParent;
     public GameObject streetParent;
 
+    [Header("Map")]
+    public int[,] MapMatrix = new int[20, 20];
+
     int[,] mapGrid;
 
     // Use this for initialization
