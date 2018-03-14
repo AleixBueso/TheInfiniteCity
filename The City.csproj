@@ -283,7 +283,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CityGenerator.cs" />
+    <Compile Include="Assets\GenerateButtonPress.cs" />
     <Compile Include="Assets\MenuManager.cs" />
+    <Compile Include="Assets\PanelScript.cs" />
+    <Compile Include="Assets\SwitchPress.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Packs\Rune Assets\Simple\Urban Buildings Pack 1\runesimple.shader" />
