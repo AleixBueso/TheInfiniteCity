@@ -2190,31 +2190,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1386558907}
   - component: {fileID: 1386558906}
-  - component: {fileID: 1386558905}
+  - component: {fileID: 1386558908}
   m_Layer: 0
   m_Name: Screen Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!111 &1386558905
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1386558904}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 68c67d6bdd101104db9c502c81cd1080, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 68c67d6bdd101104db9c502c81cd1080, type: 2}
-  - {fileID: 7400000, guid: e42d14cbe5a84034b89312424ebd3748, type: 2}
-  - {fileID: 7400000, guid: 814168c7ad7aa734ea67b3c46ad25fc5, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_IsActive: 0
 --- !u!212 &1386558906
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2272,6 +2255,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 23.840002, z: 0}
+--- !u!95 &1386558908
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1386558904}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e62d5e0569ee1a34a8413975ca06427f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1394859721
 GameObject:
   m_ObjectHideFlags: 0
