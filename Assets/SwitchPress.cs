@@ -4,15 +4,39 @@ using UnityEngine;
 
 public class SwitchPress : MonoBehaviour {
 
+    [SerializeField]
+    public bool switchOn = false;
+
+    public GameObject redLightOn;
+    public GameObject redLightTerminal;
+    public GameObject screen;
+
     private void Awake()
     {
-        GetComponent<Animator>().enabled = false;
+        redLightOn.SetActive(false);
+        redLightTerminal.SetActive(false);
     }
 
     private void OnMouseDown()
     {
-        GetComponent<Animator>().enabled = true;
-        GetComponent<Animator>().Play(0);
-        GetComponent<AudioSource>().Play();
+        if (!switchOn)
+        {
+            GetComponent<Animation>().Play("OnOff Switch Anim");
+            GetComponent<AudioSource>().Play();
+            switchOn = true;
+            redLightOn.SetActive(true);
+            redLightTerminal.SetActive(true);
+            screen.SetActive(true);
+        }
+
+        else
+        {
+            GetComponent<Animation>().Play("OffOn Switch Animation");
+            GetComponent<AudioSource>().Play();
+            switchOn = false;
+            redLightOn.SetActive(false);
+            redLightTerminal.SetActive(false);
+            screen.SetActive(false);
+        }
     }
 }
