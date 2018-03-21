@@ -7,6 +7,8 @@ public class SwitchPress : MonoBehaviour {
     [SerializeField]
     public bool switchOn = false;
 
+    private GameObject audioManager;
+
     public GameObject redLightOn;
     public GameObject redLightTerminal;
     public GameObject screen;
@@ -15,6 +17,7 @@ public class SwitchPress : MonoBehaviour {
     {
         redLightOn.SetActive(false);
         redLightTerminal.SetActive(false);
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager");
     }
 
     private void OnMouseDown()
@@ -26,7 +29,8 @@ public class SwitchPress : MonoBehaviour {
             switchOn = true;
             redLightOn.SetActive(true);
             redLightTerminal.SetActive(true);
-            screen.SetActive(true);
+            StartCoroutine(TurnOnScreen());
+            audioManager.GetComponent<AudioSource>().Play();
         }
 
         else
@@ -37,6 +41,13 @@ public class SwitchPress : MonoBehaviour {
             redLightOn.SetActive(false);
             redLightTerminal.SetActive(false);
             screen.SetActive(false);
+            audioManager.GetComponent<AudioSource>().Stop();
         }
+    }
+
+    IEnumerator TurnOnScreen()
+    {
+        yield return new WaitForSeconds(1f);
+        screen.SetActive(true);
     }
 }
