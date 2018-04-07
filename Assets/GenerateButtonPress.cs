@@ -14,6 +14,7 @@ public class GenerateButtonPress : MonoBehaviour {
 
     private void OnMouseDown()
     {
+        screenImage.GetComponent<Animator>().SetBool("Menu", true);
         GetComponent<AudioSource>().Play();
         screenImage.GetComponent<Animator>().SetBool("ButtonPressed", true);
         StartCoroutine(ScreenDelay());
