@@ -13,6 +13,7 @@ public class CityGenerator : MonoBehaviour {
     public GameObject crossStreet;
 
     [Header("Preferences")]
+    public bool perlinNoise = true;
     public int mapWidth;
     public int mapHeight;
     int buildingFootprint = 3;
@@ -28,15 +29,34 @@ public class CityGenerator : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        GenerateCity(perlinNoise);
+    }
 
+    void GenerateCity(bool perlin)
+    {
         mapGrid = new int[mapWidth, mapHeight];
 
-        //Generate map data
-		for (int h = 0; h <mapHeight; h++)
+        if (perlin)
         {
-            for (int w = 0; w < mapWidth; w++)
+            //Generate map data
+            for (int h = 0; h < mapHeight; h++)
             {
-                mapGrid[w, h] = (int)(Mathf.PerlinNoise(w / 10.0f, h / 10.0f) * 10);
+                for (int w = 0; w < mapWidth; w++)
+                {
+                    mapGrid[w, h] = (int)(Mathf.PerlinNoise(w / 10.0f, h / 10.0f) * 10);
+                }
+            }
+        }
+
+        else
+        {
+            //Generate map data
+            for (int h = 0; h < mapHeight; h++)
+            {
+                for (int w = 0; w < mapWidth; w++)
+                {
+                    mapGrid[w, h] = Random.Range(0, 10);
+                }
             }
         }
 
@@ -49,8 +69,8 @@ public class CityGenerator : MonoBehaviour {
                 mapGrid[x, h] = -1;
 
             x += Random.Range(2, 10);
-                if (x >= mapWidth)
-                 break;
+            if (x >= mapWidth)
+                break;
         }
 
         int z = 0;
@@ -97,6 +117,5 @@ public class CityGenerator : MonoBehaviour {
             }
 
         }
-
     }
 }
