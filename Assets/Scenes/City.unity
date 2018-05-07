@@ -282,16 +282,17 @@ MonoBehaviour:
   buildings:
   - {fileID: 141268, guid: b3d3a7ba5f4d42943920370ae1696723, type: 2}
   - {fileID: 147108, guid: 3d01ef65dd7df27469c08a5faaf917bd, type: 2}
-  - {fileID: 151704, guid: 43cefcf568e58d84d802bbb3c6a74777, type: 2}
+  - {fileID: 1866351238809864, guid: 231e91e9c29d164449885923acbe773a, type: 2}
   - {fileID: 1268527077626204, guid: c0aee68977fdec24c9aee3962e37c596, type: 2}
   - {fileID: 1434641455514530, guid: 0ccfac9a89dbaa34e9aedb532388190b, type: 2}
-  xStreet: {fileID: 1791228621362434, guid: 879391fa64262f244980f9c87f18c5ca, type: 2}
-  zStreet: {fileID: 1762430911855978, guid: 0686b32f2986a664390142ecaf05e359, type: 2}
-  crossStreet: {fileID: 1111944040540380, guid: b0e2d7dba708ed741aca2cdf599802ef,
+  xStreet: {fileID: 1628319710035810, guid: a974d50902ed8de4a8515f87ed95252d, type: 2}
+  zStreet: {fileID: 1504698009594674, guid: a494930a0e11f984f962369620d241d2, type: 2}
+  crossStreet: {fileID: 1304321631523606, guid: 5ca8835fb183cb4468d66241ed046fbb,
     type: 2}
-  perlinNoise: 0
-  mapWidth: 50
-  mapHeight: 50
+  perlinNoise: 1
+  mapWidth: 10
+  mapHeight: 10
+  rotations: 000000005a000000b40000000e010000
   buildingsParent: {fileID: 567274339}
   streetParent: {fileID: 2144507438}
 --- !u!4 &1180216628

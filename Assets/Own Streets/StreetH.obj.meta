@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: d7566fe91077bd64a84df25584ed1934
-timeCreated: 1525012875
+guid: 311b11b854b61794b8412dd90ac34ccc
+timeCreated: 1525713799
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -9,7 +9,7 @@ ModelImporter:
     100002: //RootNode
     400000: group13_StreetH_pCube1
     400002: //RootNode
-    2100000: initialShadingGroup
+    2100000: group13_StreetH_pCube1Mat
     2300000: group13_StreetH_pCube1
     3300000: group13_StreetH_pCube1
     4300000: group13_StreetH_pCube1

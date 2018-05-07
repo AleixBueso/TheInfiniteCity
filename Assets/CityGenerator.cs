@@ -17,6 +17,7 @@ public class CityGenerator : MonoBehaviour {
     public int mapWidth;
     public int mapHeight;
     int buildingFootprint = 3;
+    public int[] rotations;
 
     [Header("Hierarchy")]
     public GameObject buildingsParent;
@@ -27,8 +28,11 @@ public class CityGenerator : MonoBehaviour {
 
     int[,] mapGrid;
 
+
+
     // Use this for initialization
     void Start () {
+
         GenerateCity(perlinNoise);
     }
 
@@ -101,19 +105,19 @@ public class CityGenerator : MonoBehaviour {
                 if (gridVal < -2)
                     Instantiate(crossStreet, pos, crossStreet.transform.rotation, streetParent.transform);
                 else if (gridVal < -1)
-                    Instantiate(xStreet, pos, xStreet.transform.rotation, streetParent.transform);
+                    Instantiate(xStreet, pos + new Vector3(-3, 0, 0), xStreet.transform.rotation, streetParent.transform);
                 else if (gridVal < 0)
-                    Instantiate(zStreet, pos, zStreet.transform.rotation, streetParent.transform);
+                    Instantiate(zStreet, pos + new Vector3(0, 0, -3), zStreet.transform.rotation, streetParent.transform);
                 else if (gridVal < 2)
-                    Instantiate(buildings[0], pos, Quaternion.identity, buildingsParent.transform);
+                    Instantiate(buildings[0], pos, Quaternion.Euler(0, rotations[Random.Range(0, rotations.Length)], 0), buildingsParent.transform);
                 else if (gridVal < 4)
-                    Instantiate(buildings[1], pos, Quaternion.identity, buildingsParent.transform);
+                    Instantiate(buildings[1], pos, Quaternion.Euler(0, rotations[Random.Range(0, rotations.Length)], 0), buildingsParent.transform);
                 else if (gridVal < 6)
-                    Instantiate(buildings[2], pos, Quaternion.identity, buildingsParent.transform);
+                    Instantiate(buildings[2], pos, Quaternion.Euler(0, rotations[Random.Range(0, rotations.Length)], 0), buildingsParent.transform);
                 else if (gridVal < 8)
-                    Instantiate(buildings[3], pos, Quaternion.identity, buildingsParent.transform);
+                    Instantiate(buildings[3], pos, Quaternion.Euler(0, rotations[Random.Range(0, rotations.Length)], 0), buildingsParent.transform);
                 else if (gridVal < 10)
-                    Instantiate(buildings[4], pos, Quaternion.identity, buildingsParent.transform);
+                    Instantiate(buildings[4], pos, Quaternion.Euler(0, rotations[Random.Range(0, rotations.Length)], 0), buildingsParent.transform);
             }
 
         }
