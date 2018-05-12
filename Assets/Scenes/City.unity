@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -283,13 +283,13 @@ MonoBehaviour:
   - {fileID: 141268, guid: b3d3a7ba5f4d42943920370ae1696723, type: 2}
   - {fileID: 147108, guid: 3d01ef65dd7df27469c08a5faaf917bd, type: 2}
   - {fileID: 1866351238809864, guid: 231e91e9c29d164449885923acbe773a, type: 2}
-  - {fileID: 1268527077626204, guid: c0aee68977fdec24c9aee3962e37c596, type: 2}
-  - {fileID: 1434641455514530, guid: 0ccfac9a89dbaa34e9aedb532388190b, type: 2}
+  - {fileID: 1849382999055700, guid: d6cef8e298aa62245b77973d30b6b24e, type: 2}
+  - {fileID: 1632658386906456, guid: b1c4ebbba00fb184ea804ab507baf319, type: 2}
   xStreet: {fileID: 1628319710035810, guid: a974d50902ed8de4a8515f87ed95252d, type: 2}
   zStreet: {fileID: 1504698009594674, guid: a494930a0e11f984f962369620d241d2, type: 2}
   crossStreet: {fileID: 1304321631523606, guid: 5ca8835fb183cb4468d66241ed046fbb,
     type: 2}
-  perlinNoise: 1
+  perlinNoise: 0
   mapWidth: 10
   mapHeight: 10
   rotations: 000000005a000000b40000000e010000
