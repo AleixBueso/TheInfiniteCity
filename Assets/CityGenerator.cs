@@ -105,9 +105,9 @@ public class CityGenerator : MonoBehaviour {
                 if (gridVal < -2)
                     Instantiate(crossStreet, pos, crossStreet.transform.rotation, streetParent.transform);
                 else if (gridVal < -1)
-                    Instantiate(xStreet, pos + new Vector3(-3, 0, 0), xStreet.transform.rotation, streetParent.transform);
+                    Instantiate(xStreet, pos, xStreet.transform.rotation, streetParent.transform);
                 else if (gridVal < 0)
-                    Instantiate(zStreet, pos + new Vector3(0, 0, -3), zStreet.transform.rotation, streetParent.transform);
+                    Instantiate(zStreet, pos, zStreet.transform.rotation, streetParent.transform);
                 else if (gridVal < 2)
                     Instantiate(buildings[0], pos, Quaternion.Euler(0, rotations[Random.Range(0, rotations.Length)], 0), buildingsParent.transform);
                 else if (gridVal < 4)

@@ -285,9 +285,9 @@ MonoBehaviour:
   - {fileID: 1866351238809864, guid: 231e91e9c29d164449885923acbe773a, type: 2}
   - {fileID: 1849382999055700, guid: d6cef8e298aa62245b77973d30b6b24e, type: 2}
   - {fileID: 1632658386906456, guid: b1c4ebbba00fb184ea804ab507baf319, type: 2}
-  xStreet: {fileID: 1628319710035810, guid: a974d50902ed8de4a8515f87ed95252d, type: 2}
-  zStreet: {fileID: 1504698009594674, guid: a494930a0e11f984f962369620d241d2, type: 2}
-  crossStreet: {fileID: 1304321631523606, guid: 5ca8835fb183cb4468d66241ed046fbb,
+  xStreet: {fileID: 1009385804634650, guid: b9be4285979c18e4d95b1aeb62686338, type: 2}
+  zStreet: {fileID: 1939659311619450, guid: e8612a456e6e8554b814104f977c6b1d, type: 2}
+  crossStreet: {fileID: 1428250800304584, guid: 5ca8835fb183cb4468d66241ed046fbb,
     type: 2}
   perlinNoise: 0
   mapWidth: 10
