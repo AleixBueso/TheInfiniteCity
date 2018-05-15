@@ -282,7 +282,7 @@ MonoBehaviour:
   buildings:
   - {fileID: 141268, guid: b3d3a7ba5f4d42943920370ae1696723, type: 2}
   - {fileID: 147108, guid: 3d01ef65dd7df27469c08a5faaf917bd, type: 2}
-  - {fileID: 1866351238809864, guid: 231e91e9c29d164449885923acbe773a, type: 2}
+  - {fileID: 1703413594708452, guid: 6e51164aee348af44b59d90a98e44e6c, type: 2}
   - {fileID: 1849382999055700, guid: d6cef8e298aa62245b77973d30b6b24e, type: 2}
   - {fileID: 1632658386906456, guid: b1c4ebbba00fb184ea804ab507baf319, type: 2}
   xStreet: {fileID: 1009385804634650, guid: b9be4285979c18e4d95b1aeb62686338, type: 2}

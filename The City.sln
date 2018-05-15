@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The City", "The City.csproj", "{4407D0FC-52F7-955B-3517-3D9B8F5753B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The City.Editor", "The City.Editor.csproj", "{15BE01F5-C88B-1ECC-CF20-F68DAACD7F18}"
