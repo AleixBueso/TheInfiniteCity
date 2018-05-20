@@ -280,11 +280,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildings:
-  - {fileID: 141268, guid: b3d3a7ba5f4d42943920370ae1696723, type: 2}
-  - {fileID: 147108, guid: 3d01ef65dd7df27469c08a5faaf917bd, type: 2}
-  - {fileID: 1703413594708452, guid: 6e51164aee348af44b59d90a98e44e6c, type: 2}
   - {fileID: 1849382999055700, guid: d6cef8e298aa62245b77973d30b6b24e, type: 2}
   - {fileID: 1632658386906456, guid: b1c4ebbba00fb184ea804ab507baf319, type: 2}
+  - {fileID: 1703413594708452, guid: 6e51164aee348af44b59d90a98e44e6c, type: 2}
   xStreet: {fileID: 1009385804634650, guid: b9be4285979c18e4d95b1aeb62686338, type: 2}
   zStreet: {fileID: 1939659311619450, guid: e8612a456e6e8554b814104f977c6b1d, type: 2}
   crossStreet: {fileID: 1428250800304584, guid: 5ca8835fb183cb4468d66241ed046fbb,

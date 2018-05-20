@@ -289,11 +289,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BlinkScript.cs" />
-    <Compile Include="Assets\CityGenerator.cs" />
-    <Compile Include="Assets\GenerateButtonPress.cs" />
-    <Compile Include="Assets\MenuManager.cs" />
-    <Compile Include="Assets\PanelScript.cs" />
     <Compile Include="Assets\Realistic Glitches Lite\Assets\Scripts\BWEffect.cs" />
     <Compile Include="Assets\Realistic Glitches Lite\Assets\Scripts\DiyEffect__FullOnly.cs" />
     <Compile Include="Assets\Realistic Glitches Lite\Assets\Scripts\ShaderEffect_BleedingColors.cs" />
@@ -303,7 +298,12 @@
     <Compile Include="Assets\Realistic Glitches Lite\Assets\Scripts\ShaderEffect_Tint.cs" />
     <Compile Include="Assets\Realistic Glitches Lite\Assets\Scripts\ShaderEffect_Unsync.cs" />
     <Compile Include="Assets\Realistic Glitches Lite\Assets\Scripts\ShaderToTexture.cs" />
-    <Compile Include="Assets\SwitchPress.cs" />
+    <Compile Include="Assets\Scripts\BlinkScript.cs" />
+    <Compile Include="Assets\Scripts\CityGenerator.cs" />
+    <Compile Include="Assets\Scripts\GenerateButtonPress.cs" />
+    <Compile Include="Assets\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\Scripts\PanelScript.cs" />
+    <Compile Include="Assets\Scripts\SwitchPress.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Packs\Rune Assets\Simple\Urban Buildings Pack 1\runesimple.shader" />

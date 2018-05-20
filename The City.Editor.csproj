@@ -295,6 +295,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\CityGeneratorEditor.cs" />
     <Compile Include="Assets\Substance\Livelink\Editor\Plugins\SimpleJSON.cs" />
     <Compile Include="Assets\Substance\Livelink\Editor\Scripts\ItemSelectorWindow.cs" />
     <Compile Include="Assets\Substance\Livelink\Editor\Scripts\MaterialPropertiesManipulation.cs" />
