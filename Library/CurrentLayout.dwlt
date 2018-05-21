@@ -153,7 +153,7 @@ MonoBehaviour:
     y: 0
     width: 1392
     height: 947
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 54
@@ -177,8 +177,8 @@ MonoBehaviour:
     y: 0
     width: 1392
     height: 671
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
   controlID: 55
 --- !u!114 &9
@@ -224,8 +224,8 @@ MonoBehaviour:
     y: 0
     width: 1070
     height: 671
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -281,10 +281,10 @@ MonoBehaviour:
     y: 0
     width: 528
     height: 947
-  m_MinSize: {x: 277, y: 291}
+  m_MinSize: {x: 275, y: 291}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 127
+  controlID: 144
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -303,8 +303,8 @@ MonoBehaviour:
     y: 0
     width: 528
     height: 633
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -330,8 +330,8 @@ MonoBehaviour:
     y: 633
     width: 528
     height: 314
-  m_MinSize: {x: 260, y: 220}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 262, y: 241}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 26}
   m_Panes:
   - {fileID: 26}
@@ -443,23 +443,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 18300000
-    m_LastClickedID: 12312
-    m_ExpandedIDs: 9efbffff00000000
+    m_SelectedIDs: e2310000
+    m_LastClickedID: 12770
+    m_ExpandedIDs: 6696ffff6acdffff9efbffff00000000da300000ee300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Terrain
-      m_OriginalName: Terrain
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -101172
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -496,14 +496,14 @@ MonoBehaviour:
     height: 650
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 2458.809790894386
+  lastFramingTime: 389.31637492815815
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 13.571601, y: 2.9943929, z: 13.571602}
+    m_Target: {x: 15.715153, y: 1.672802, z: 11.532388}
     speed: 2
-    m_Value: {x: 13.571601, y: 2.9943929, z: 13.571602}
+    m_Value: {x: 15.715153, y: 1.672802, z: 11.532388}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -527,13 +527,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.3475327, y: -0.40959558, z: 0.17240337, w: 0.8256799}
+    m_Target: {x: 0.30618587, y: -0.63591385, z: 0.30436245, w: 0.6397303}
     speed: 2
-    m_Value: {x: 0.34752962, y: -0.40959197, z: 0.17240185, w: 0.8256726}
+    m_Value: {x: 0.30618167, y: -0.63590515, z: 0.30435827, w: 0.6397215}
   m_Size:
-    m_Target: 40.914654
+    m_Target: 17.914988
     speed: 2
-    m_Value: 40.914654
+    m_Value: 17.914988
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -739,19 +739,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Materials
+    - Assets/Own Buildings
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Own Buildings
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\Bueso\Documents\GitHub\The City
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ca2b0000
-    m_LastClickedID: 11210
-    m_ExpandedIDs: 00000000ca270000d0270000382800002629000052290000c2290000ca2b0000242c0000562c0000702c0000b42c0000c02c0000c22c0000922d0000762e0000c62e0000c82e0000ec2e00001c2f0000302f0000d0300000d2300000d430000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 120}
+    m_SelectedIDs: 542f0000
+    m_LastClickedID: 12116
+    m_ExpandedIDs: 00000000ca270000d0270000382800002829000054290000c4290000d82b0000322c0000642c00007e2c0000c42c0000d02c0000d22c0000a22d0000862e0000d62e0000d82e0000fc2e00002c2f0000402f00000a3400000c3400000e34000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -779,7 +779,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ca270000d0270000382800002629000052290000c2290000242c0000562c0000702c0000b42c0000c02c0000c22c0000922d0000762e0000c62e0000c82e0000ec2e00001c2f0000302f0000d0300000d2300000d4300000
+    m_ExpandedIDs: 00000000ca270000d0270000382800002829000054290000c4290000d82b0000322c0000642c00007e2c0000c42c0000d02c0000d22c0000a22d0000862e0000d62e0000d82e0000fc2e00002c2f0000402f00000a3400000c3400000e340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -831,7 +831,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 53}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 96
   m_DirectoriesAreaWidth: 271
 --- !u!114 &21
