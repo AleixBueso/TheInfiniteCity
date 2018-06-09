@@ -15,11 +15,15 @@ public class CityGenerator : MonoBehaviour {
     public GameObject LampPost;
 
     [Header("Preferences")]
+    [Tooltip("Perlin noise simulates neghborhoods with the same buildigs")]
     public bool perlinNoise = true;
     public int mapWidth;
     public int mapHeight;
-    int buildingFootprint = 3;
-    public int[] rotations;
+    private int buildingFootprint = 3;
+    private int[] rotations = new int[4] { 0, 90, 180, 270 };
+    public bool useLights = true;
+    [Tooltip("From 0 to 100 percertange of lights on the streets")]
+    public float lightRatio = 30;
 
     [Header("Hierarchy")]
     public GameObject buildingsParent;
@@ -109,14 +113,24 @@ public class CityGenerator : MonoBehaviour {
                 else if (gridVal < -1)
                 {
                     Instantiate(xStreet, pos, xStreet.transform.rotation, streetParent.transform);
-                    if (Random.Range(0, 5) == 1)
-                        Instantiate(LampPost, pos, Quaternion.Euler(0, 90, 0), streetParent.transform);
+
+                    // Lights
+                    if (useLights)
+                    {
+                        if (Random.Range(0, 100) <= lightRatio)
+                            Instantiate(LampPost, pos, Quaternion.Euler(0, 90, 0), streetParent.transform);
+                    }
                 }
                 else if (gridVal < 0)
                 {
                     Instantiate(zStreet, pos, zStreet.transform.rotation, streetParent.transform);
-                    if (Random.Range(0, 5) == 1)
-                        Instantiate(LampPost, pos, LampPost.transform.rotation, streetParent.transform);
+
+                    //Lights
+                    if (useLights)
+                    {
+                        if (Random.Range(0, 100) <= lightRatio)
+                            Instantiate(LampPost, pos, LampPost.transform.rotation, streetParent.transform);
+                    }
                 }
 
                  if (gridVal >= 0)
