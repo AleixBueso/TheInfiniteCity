@@ -1,18 +1,18 @@
 fileFormatVersion: 2
-guid: 657724088691791419c666a035fbc8e7
-timeCreated: 1525528892
+guid: 6c27c5a1fc0cd974d93bbfb5ead5927b
+timeCreated: 1528542870
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: group5
-    400000: //RootNode
-    400002: group5
-    2100000: group5Mat
-    2300000: group5
-    3300000: group5
-    4300000: group5
+    100000: default
+    100002: //RootNode
+    400000: default
+    400002: //RootNode
+    2100000: defaultMat
+    2300000: default
+    3300000: default
+    4300000: default
   externalObjects: {}
   materials:
     importMaterials: 1

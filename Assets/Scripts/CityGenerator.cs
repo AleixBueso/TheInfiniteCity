@@ -12,6 +12,8 @@ public class CityGenerator : MonoBehaviour {
     public GameObject zStreet;
     public GameObject crossStreet;
 
+    public GameObject LampPost;
+
     [Header("Preferences")]
     public bool perlinNoise = true;
     public int mapWidth;
@@ -105,9 +107,17 @@ public class CityGenerator : MonoBehaviour {
                 if (gridVal < -2)
                     Instantiate(crossStreet, pos, crossStreet.transform.rotation, streetParent.transform);
                 else if (gridVal < -1)
+                {
                     Instantiate(xStreet, pos, xStreet.transform.rotation, streetParent.transform);
+                    if (Random.Range(0, 5) == 1)
+                        Instantiate(LampPost, pos, Quaternion.Euler(0, 90, 0), streetParent.transform);
+                }
                 else if (gridVal < 0)
+                {
                     Instantiate(zStreet, pos, zStreet.transform.rotation, streetParent.transform);
+                    if (Random.Range(0, 5) == 1)
+                        Instantiate(LampPost, pos, LampPost.transform.rotation, streetParent.transform);
+                }
 
                  if (gridVal >= 0)
                 {
