@@ -32,6 +32,12 @@ public class CityGenerator : MonoBehaviour {
     [Header("Map")]
     public int[,] MapMatrix = new int[20, 20];
 
+    [Header("Enviroment")]
+    public Light dirLight;
+    public Material daySkybox;
+    public Material noonSkybox;
+    public Material nightSkybox;
+
     int[,] mapGrid;
 
     // Use this for initialization
@@ -147,7 +153,6 @@ public class CityGenerator : MonoBehaviour {
 
     public void DeleteCity()
     {
-
         for(int i = 0; i < buildingsParent.transform.childCount; i++)
             GameObject.DestroyImmediate(buildingsParent.transform.GetChild(i).gameObject);
 
@@ -156,5 +161,23 @@ public class CityGenerator : MonoBehaviour {
 
         if (buildingsParent.transform.childCount != 0 || streetParent.transform.childCount != 0)
             DeleteCity();
+    }
+
+    public void SetNightTime()
+    {
+        dirLight.intensity = 0.1f;
+        RenderSettings.skybox = nightSkybox;
+    }
+
+    public void SetDayTime()
+    {
+        dirLight.intensity = 1;
+        RenderSettings.skybox = daySkybox;
+    }
+
+    public void SetNoonTime()
+    {
+        dirLight.intensity = 0.6f;
+        RenderSettings.skybox = noonSkybox;
     }
 }

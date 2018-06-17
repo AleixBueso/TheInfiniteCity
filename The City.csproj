@@ -260,12 +260,6 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets/Substance/Livelink/Editor/Plugins/websocket-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="SourceUnityLib">
-      <HintPath>Assets/Substance/Substance Source/Editor/SourceUnityLib.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/Bueso/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -289,33 +283,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Realistic Glitches Lite\Assets\Scripts\BWEffect.cs" />
-    <Compile Include="Assets\Realistic Glitches Lite\Assets\Scripts\DiyEffect__FullOnly.cs" />
-    <Compile Include="Assets\Realistic Glitches Lite\Assets\Scripts\ShaderEffect_BleedingColors.cs" />
-    <Compile Include="Assets\Realistic Glitches Lite\Assets\Scripts\ShaderEffect_CorruptedVram.cs" />
-    <Compile Include="Assets\Realistic Glitches Lite\Assets\Scripts\ShaderEffect_CRT.cs" />
-    <Compile Include="Assets\Realistic Glitches Lite\Assets\Scripts\ShaderEffect_Scanner.cs" />
-    <Compile Include="Assets\Realistic Glitches Lite\Assets\Scripts\ShaderEffect_Tint.cs" />
-    <Compile Include="Assets\Realistic Glitches Lite\Assets\Scripts\ShaderEffect_Unsync.cs" />
-    <Compile Include="Assets\Realistic Glitches Lite\Assets\Scripts\ShaderToTexture.cs" />
-    <Compile Include="Assets\Scripts\BlinkScript.cs" />
     <Compile Include="Assets\Scripts\CityGenerator.cs" />
-    <Compile Include="Assets\Scripts\GenerateButtonPress.cs" />
-    <Compile Include="Assets\Scripts\MenuManager.cs" />
-    <Compile Include="Assets\Scripts\PanelScript.cs" />
-    <Compile Include="Assets\Scripts\SwitchPress.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Packs\Rune Assets\Simple\Urban Buildings Pack 1\runesimple.shader" />
-    <None Include="Assets\Realistic Glitches Lite\Assets\Shaders\BWDiffuse.shader" />
-    <None Include="Assets\Realistic Glitches Lite\Assets\Shaders\BleedingColors.shader" />
-    <None Include="Assets\Realistic Glitches Lite\Assets\Shaders\Distortion.shader" />
-    <None Include="Assets\Realistic Glitches Lite\Assets\Shaders\Distortion2D__FullOnly.shader" />
-    <None Include="Assets\Realistic Glitches Lite\Assets\Shaders\Scanlines.shader" />
-    <None Include="Assets\Realistic Glitches Lite\Assets\Shaders\Shift.shader" />
-    <None Include="Assets\Realistic Glitches Lite\Assets\Shaders\Tint.shader" />
-    <None Include="Assets\Realistic Glitches Lite\Assets\Shaders\VUnsync.shader" />
-    <None Include="Assets\Realistic Glitches Lite\Documentation\Realistic Glitches.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
