@@ -1,0 +1,1 @@
+To use it simply drag the script into the Scene and fill all the blanks, you can access the demo to see how it should be used.
